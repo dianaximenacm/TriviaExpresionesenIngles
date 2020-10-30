@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(img/idioms.png);
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.marca {
+  border-radius: 15px 15px 0 0;
+  background-color: black;
+  color: white;
+}
+
+.titulo__marca {
+   font-size: 16px;
+}
+
+.titulo {
+  color: #0277bd;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.presentacion {
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow:  0 8px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  margin: 30px auto;
+  height: 550px;
+  width: 50%
+}
+
+.container {
+  padding: 50px 10px 0;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  width: 70%;
+}
+
+input {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.boton {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%;
+  font-size: 2rem;
+}
+
+.botonVolver {
+  background-color: #0277bd;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.boton:hover,
+.botonTrivias:hover
+.botonSiguiente:hover {
+  background-color: #0277bd;
+  color: white;
+  border: 1px solid white
+}
+
+.botonTrivias {
+  font-family: 'Indie Flower', cursive;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px auto;
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+.pregunta {
+  display:block;
+  font-weight: 600;
+}
+
+.botonSiguiente {
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 30%;
+  margin-left: 60%;
+  font-weight: bold;
+}
+
+.cronometro {
+  border-radius: 10px;
+  border: 1px solid #0277bd;
+  min-height: 30px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.puntos {
+  font-size:16px;
+  margin: 10px 0;
+}
+
+.imgDecoracion {
+  width:180px;
+}
+
+.puntajeTitulo {
+  color:  #0277bd;
+  font-size: 25px
+}
+
+.puntaje {
+  color: #ff6f00;
+  font-size: 40px;
+}
+/* HEADER */
+
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+ 
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background: #fff;
+	overflow: hidden;
+}
+ 
+.logo {
+	width: 100px;
+	float: left;
+}
+ 
+.logo img {
+	width:100%;
+	vertical-align: top;
+}
+ 
+nav {
+	float: right;
+}
+ 
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+ 
+nav ul li a {
+	display: block;
+	background: #f2f2f2;
+	color: #037E8C;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+ 
+nav ul li a:hover {
+	color: #fff;
+	background: #F24C27;
+}
+
+/* FOOTER */
+ 
+footer {
+	width: 100%;
+	background:#333;
+	padding:20px 0;
+	color:#fff;
+}
+ 
+footer p {
+	text-align:center;
+}
